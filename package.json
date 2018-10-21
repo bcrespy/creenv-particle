@@ -1,24 +1,24 @@
 {
-  "name": "@creenv/colorpicker",
-  "version": "0.3.2",
-  "description": "A lightweight css color picker, easily customizable.",
+  "name": "@creenv/particle",
+  "version": "0.0.1",
+  "description": "a lightweight particle es6 class",
   "keywords": [
-    "color",
-    "colorpicker",
+    "particle",
+    "particles",
+    "creenv",
     "creative",
-    "environment",
-    "creenv"
+    "environment"
   ],
   "license": "MIT",
   "author": "Baptiste Crespy",
-  "homepage": "https://github.com/bcrespy/creenv-colorpicker.git",
+  "homepage": "https://github.com/bcrespy/creenv-particle.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bcrespy/creenv-colorpicker.git"
+    "url": "https://github.com/bcrespy/creenv-particle.git"
   },
   "bugs": {
     "mail": "baptiste.crespy@gmail.com",
-    "url": "https://github.com/bcrespy/creenv-colorpicker/issues"
+    "url": "https://github.com/bcrespy/creenv-particle/issues"
   },
   "main": "lib/index.js",
   "files": [
@@ -34,12 +34,8 @@
   },
   "peerDependencies": {},
   "dependencies": {
-    "@creenv/color": "^1.2.0",
-    "@creenv/slider": "^1.0.6",
-    "@creenv/vector": "^1.0.2",
-    "clamp": "^1.0.1",
-    "round-to": "^3.0.0",
-    "uniqid": "^5.0.3"
+    "@creenv/rectangle": "0.0.1",
+    "@creenv/vector": "^1.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
